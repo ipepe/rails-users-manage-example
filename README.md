@@ -9,6 +9,10 @@ manually, follow [these directions](#manual-installation).
 These are some special considerations you may need to keep in mind when
 running your application on OpenShift.
 
+### Ruby version ###
+Openshift container runs on Ruby version: "2.0.0-p645". Also apriopriate ".ruby-version"
+file is added to repository to help with development on exact version as openshift ruby runtime.
+
 ### Database ###
 Your application is configured to use your OpenShift database in
 Production mode.
