@@ -52,7 +52,7 @@ GEM
     mime-types (2.99)
     minitest (5.8.3)
     multi_json (1.11.2)
-    mysql2 (0.4.2)
+    mysql2 (0.3.20)
     pg (0.18.4)
     puma (2.15.3)
     rack (1.5.2)
@@ -115,7 +115,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   minitest
-  mysql2
+  mysql2 (~> 0.3.20)
   pg
   puma
   rack (= 1.5.2)

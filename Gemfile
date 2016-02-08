@@ -27,7 +27,7 @@ end
 
 # Add support for the MySQL
 group :production, :mysql do
-  gem 'mysql2'
+  gem 'mysql2', '~> 0.3.20' #version >= 4.0.0 is not compatible with this rails version
 end
 
 group :production, :postgresql do
