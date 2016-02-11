@@ -2,15 +2,16 @@ nav.navbar.navbar-inverse
   .container-fluid
     .navbar-header
       a.navbar-brand href="/"  WebSiteName
-    ul.nav.navbar-nav
-      li.active
-        a href="/"  Home
-      li
-        a href="#"  Page 1
-      li
-        a href="#"  Page 2
-      li
-        a href="#"  Page 3
+    - if current_user.present?
+      ul.nav.navbar-nav
+        li.active
+          a href="/"  Home
+        li
+          a href="#"  Page 1
+        li
+          a href="#"  Page 2
+        li
+          a href="#"  Page 3
     ul.nav.navbar-nav.navbar-right
       - if current_user.present?
         li

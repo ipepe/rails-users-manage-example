@@ -26,7 +26,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
-gem 'spring',        group: :development
+gem 'spring',                    group: :development
 
 # assets pipeline
 source 'https://rails-assets.org' do
@@ -34,6 +34,7 @@ source 'https://rails-assets.org' do
 end
 
 # project related gems
+gem 'dotenv-rails'
 gem 'puma'
 gem 'slim-rails'
 gem 'will_paginate'
@@ -41,15 +42,15 @@ gem 'will_paginate'
 gem 'non-stupid-digest-assets'
 gem 'quiet_assets'
 
-gem 'faker'
+# gem 'faker'
+#
+# gem 'geocoder'
+# gem 'maxminddb'
+#
+# gem 'gon'
 
-gem 'geocoder'
-gem 'maxminddb'
-
-gem 'gon'
-
-gem 'rolify'
-gem 'cancancan'
+# gem 'rolify'
+# gem 'cancancan'
 
 #devise
 gem 'devise'

@@ -51,3 +51,8 @@ build/
 /log/*.log
 /tmp
 /.idea
+
+/public/assets/**
+
+.env*
+.env
