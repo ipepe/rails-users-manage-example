@@ -1,3 +1,6 @@
+# WARNING! THIS PROJECT IS NO LONGER MAINTAINED!
+Warning! This project has known security vulnerabilities detected!
+
 # rails-users-manage-example
 This is ruby on rails with example users managment code
 
